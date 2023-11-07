@@ -1,0 +1,28 @@
+name: newsapp
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.0
+  intl: ^0.18.1 
+  localstorage: ^4.0.1+4
+  cookie_jar: ^4.0.8
+  dio_cookie_manager: ^3.1.1
+  crypto: ^3.0.3
+  dio: ^5.3.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  intl_generator: ^0.4.1 
+
+flutter:
+  uses-material-design: true
